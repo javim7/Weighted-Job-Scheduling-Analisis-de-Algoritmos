@@ -1,6 +1,8 @@
 '''
 IMPLEMENTACION FUNCIONAL DEL ALGORITMO GREEDY
 '''
+from Job import *
+
 def scheduleGreedy(job):
     job = sorted(job, key = lambda j: j.finish)  # Ordenar trabajos por tiempo de finalización
 

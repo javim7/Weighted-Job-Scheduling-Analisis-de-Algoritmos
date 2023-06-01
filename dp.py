@@ -1,8 +1,8 @@
 '''
 IMPLEMENTACION FUNCIONAL DEL ALGORITMO DE PROGRAMACION DINAMICA
-Codigo obtenido de GeeksForGeeks
 '''
 from functools import cmp_to_key
+from Job import *
 
 def jobComparator(s1, s2):
  
